@@ -216,7 +216,7 @@ password_show.addEventListener("click", (e) => {
 
     const login_btn = document.getElementById("login_btn");
 const go_To_Login = () => {
-    window.location.href = "Login.html"
+    window.location.href = "login.html"
 };
 
 login_btn.addEventListener("click", (e) => {

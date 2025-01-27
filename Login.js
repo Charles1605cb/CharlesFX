@@ -134,7 +134,7 @@ const check_User_val = (e) => {
 }
 var sign_in = document.getElementById("signup_btn");
 const go_To_SignUP = (e) => {
-    window.location.href = "Signup.html"
+    window.location.href = "signup.html"
 }
 
 sign_in.addEventListener("click", (e) => {

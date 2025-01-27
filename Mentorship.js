@@ -7,7 +7,7 @@
 
 
     const load_SignUp_Page = () => {
-             window.location.href = "Signup.html";
+             window.location.href = "signup.html";
     }
     btn_Sign_Up.addEventListener("click", (e) => {
       e.preventDefault();
@@ -16,7 +16,7 @@
     });
 
     const login_page = () => {
-      window.location.href = "Login.html"
+      window.location.href = "login.html"
     };
 
     login_btn.addEventListener("click", (e) => {
