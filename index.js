@@ -160,21 +160,15 @@ const checkNav_Elements = () => {
 
 
     const load_SignUp_Page = () => {
-             window.location.href = "Signup.html";
     }
-    btn_Sign_Up.addEventListener("click", (e) => {
-      e.preventDefault();
-      load_SignUp_Page();
-      
+    btn_Sign_Up.addEventListener("click", () => {
+      window.location.href = "Signup.html";
     });
 
-    const login_page = () => {
-      window.location.href = "Login.html"
-    };
 
-    login_btn.addEventListener("click", (e) => {
-      login_page()
-    })
+    login_btn.addEventListener("click", () => {
+      window.location.href = "Login.html"
+    });
 
     // Prevent Image dragging
 
