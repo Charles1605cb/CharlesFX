@@ -55,7 +55,7 @@ const checkNav_Elements = () => {
 const home_logo = document.getElementById("logo_home");
 
 const moveToHome = () => {
-    window.location.href = "Index.html"
+    window.location.href = "index.html"
 }
 
 home_logo.addEventListener("click", (e) => {
